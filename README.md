@@ -34,7 +34,7 @@ Here is an example JavaScript policy:
 ```
 
 
-Following form the example above, within the `my-business-logic.js`file you would be able to refer to the
+Following from the example above, within the `my-business-logic.js`file you would be able to refer to the
 global object `jsonata`, and write your own custom transformation logic.
 
 For example:
@@ -84,10 +84,8 @@ context.setVariable('response.content', JSON.stringify(result, null, 2));
 ```
 
 
-Note, that I am using a multiline JSONata expression by using the 
-newline escape sequence, followed by the line-continuation character.  (i.e. `\n\`)
-
-
+(I am using a multiline JSONata expression by using the 
+newline escape sequence, followed by the line-continuation character. i.e. `\n\`)
 
 
 

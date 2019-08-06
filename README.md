@@ -1,6 +1,6 @@
 ## JSONata Rhino for Apigee
 
-This repo is exposes the [jsonata](http://jsonata.org/) library re-packaged to make it work within a 
+This repo exposes the [jsonata](http://jsonata.org/) library re-packaged to make it work within a 
 ES5 Rhino JavaScript run-time environment.
 
 If your runtime environment is anything else other than Rhino, please use the official JSONata minified

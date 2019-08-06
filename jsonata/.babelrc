@@ -1,0 +1,17 @@
+{
+  "sourceType": "unambiguous",
+  "presets": [
+    ["@babel/preset-env"]
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-class-properties",
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "corejs": false,
+        "helpers": true,
+        "regenerator": true,
+        "useESModules": false
+      }
+    ]]
+}

@@ -18,7 +18,7 @@ them in Apigee.
 
 ### Using in Apigee
 
-In order to use the library in an Apigee JavaScript policy, you must refer have the library included using
+In order to use the library in an Apigee JavaScript policy, you must refer to the library using
 the `<IncludeURL>` element.
 
 Here is an example JavaScript policy:
